@@ -1,0 +1,220 @@
+body{
+  font-family: "Philosopher", sans-serif;
+  font-style: normal;
+  background-color:#ad2831;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header{
+  text-align:center;
+  /* Додаємо градієнт поверх фонового зображення для кращої читабельності */
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url(https://flomaster.top/o/uploads/posts/2024-02/1708934537_flomaster-top-p-zheleznii-chelovek-oboi-vkontakte-risunok-6.jpg);
+  background-size: cover;
+  font-size:100%;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+header h1{
+  padding-top:100px;
+  margin-bottom:10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:35px;
+  margin-left:45px;
+  margin-right:45px;
+}
+
+header p{
+  padding-top:100px;
+  margin-bottom:10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:30px;
+}
+
+nav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+nav a:hover {
+  left: 0;
+}
+.about {
+  top: 20px;
+  background-color: #800e13;
+  font-size:20px;
+}
+
+.blog {
+  top: 80px;
+  background-color: #800e13;
+}
+
+.projects {
+  top: 140px;
+  background-color: #800e13;
+}
+
+.contact {
+  top: 200px;
+  background-color: #800e13;
+}
+
+.about1 {
+  top: 260px;
+  background-color: #800e13;
+}
+
+.blog1 {
+  top: 320px;
+  background-color: #800e13;
+}
+
+.projects1 {
+  top: 380px;
+  background-color: #800e13;
+}
+
+.contac1t1 {
+  top: 440px;
+  background-color: #800e13;
+}
+
+.about2 {
+  top: 500px;
+  background-color: #800e13;
+}
+
+.blog2 {
+  top: 560px;
+  background-color: #800e13;
+}
+
+.projects2 {
+  top: 620px;
+  background-color: #800e13;
+}
+
+.contac1t2 {
+  top: 680px;
+  background-color: #800e13;
+}
+
+.opus{
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size:20px;
+  padding-bottom:10px;
+  padding-bottom:100px;
+}
+
+footer{
+  margin-top:230px;
+  text-align:center;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(114, 0, 0, 0.7)),
+            linear-gradient(to bottom, #720000, #ad2831);
+  font-size:100%;
+  color:white;
+  padding-bottom:30px;
+  font-size:30px;
+  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.character{
+  background-color:#E0484A;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* Added shadow to the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.character p{
+  font-family: 'ABeeZee';
+  padding-left: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.iron_man{
+  top: 300px;
+  position: fixed;
+  right: -460px;
+  transition: 0.3s;
+  width: 480px;
+  height:290px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius:25px;
+}
+
+.iron_man:hover {
+  right: 0;
+}
+
+h2{
+  margin-bottom:10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:35px;
+  margin-left:45px;
+  margin-right:45px;
+}
+
+.character img{
+  border-radius: 10px;
+  margin:10px;
+  float: left;
+  width: 550px;
+  height: 350px;
+}
+
+.character li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'ABeeZee';
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 23px;
+  color: white;
+  text-align: left;
+}
+
+.character1 {
+  border-radius: 10px;
+  margin-left: 10px;
+  float:right;
+  width: 350px;
+  height: 350px;
+}
+
+.character2 img{
+  border-radius: 10px;
+  margin-left:440px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
